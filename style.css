@@ -154,11 +154,14 @@ h4{
     .container{
         width: 100%;
     }
-    .items, .products{
+    .items, .products, .best_place{
         grid-template-columns: repeat(1, 1fr);
     }
-    .item2, .product {
+    .item2, .product, .best_place {
         flex-direction: column;
+    }
+    .footer{
+        width:100%;
     }
 }
 
@@ -166,8 +169,11 @@ h4{
     .container{
         width: 100%;
     }
-    .items, .products{
+    .items, .products, .best_place{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        width:100%;
     }
 
 }
